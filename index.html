@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的主页 · by Me</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+    }
+    .container {
+      max-width: 800px;
+      margin: 80px auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2.8em;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+    .links {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .link-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px 20px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .link-box:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-3px);
+    }
+    .link-box a {
+      color: #00ffe1;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>欢迎来到我的主页</h1>
+    <p>这个小角落记录了一些我最近做的事情，也可能会不定期更新一些实验、工具或学习笔记。</p>
+    <p>技术、语言、创造 —— 我的世界由这些关键词组成。如果你对我感兴趣的内容也有共鸣，不妨点开下面的链接看看 👇</p>
+
+    <div class="links">
+      <div class="link-box">
+        <a href="./qrcode-printer-demo/" target="_blank">🖨️ 二维码打印工具（QR Code Printer Demo）</a>
+        <p>一个用于快速生成和打印二维码的小工具，支持批量生成与导出，适合日常办公或项目开发。</p>
+      </div>
+
+      <div class="link-box">
+        <a href="./N2语法全解.pdf" target="_blank">📘 N2语法全解 · 日语学习笔记</a>
+        <p>我为备考日语N2整理的语法大全，涵盖重点、例句、易混知识点，适合复习和查漏补缺。</p>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 by Me | This site is powered by caffeine & curiosity.
+    </footer>
+  </div>
+</body>
+</html>
